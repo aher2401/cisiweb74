@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Alex's Website</title>
+<meta charset="utf-8">
+<meta name="description" content="I am a CISIWEB 74 student">
+<meta name="viewport" content="width=deivce-width, initial-scale=1.0">
+<style>body { background-color: #999999;
+color: #d55e5e;
+font-family: Verdana, Arial, sans-serif;}
+.studio {font-style: italic; }
+* { box-sizing: border-box; }
+h1 { background-color: #373737;
+       height: 150px;
+       padding-top: 50px;
+  padding-left: 2em;}
+main {padding-left: 2em;
+  padding-right: 2em;
+padding-top: 1em;
+  margin-left: 170px; }
+footer { padding: 1em;
+background-color: #373737;
+font-size: .60em;
+font-style: italic;
+text-align: center; }
+#wrapper { background-color: #cacaca;
+  width: 80%;
+  min-width: 1200px;
+  max-width: 1480px;
+margin-left: auto;
+margin-right: auto; }
+.floatleft { float: left;
+margin-right: 4em;}
+.clear { clear: both; }
+header, main, footer {display: block; }
+#mobile {display:none;}
+#desktop {display: inline; }
+@media only screen and (max-width: 1024px) {
+  body { margin: 0;
+    padding: 0;}
+    #wrapper {width: 100%;
+    min-width: 0;
+    margin: 0;
+    padding: 0;}
+    header {padding-top: 1px;}
+    nav { float: none;
+    width: auto;
+    padding-left: 2em;}
+    nav a {padding: 0.2em;
+    margin-left: 0.3em;
+    float: left;
+    width:23%;}
+    main {padding-top: 2.5em;
+    padding-bottom: 2.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin: 0;
+    font-size: 90%;
+    clear: both ;}
+    #hero {width: 100%;
+    height: auto;}
+    h2, h3, p, dl {padding-left: 2em;
+    padding-right: 2em;}
+    main ul {margin-left: 2em;}
+    .floatleft {margin-left: 2em;
+    margin-bottom: 1em;}
+    .clear {padding-left: 2em;}
+  }
+@media only all and (max-width: 768px) {
+h1 {font-size: 2em;
+  padding-top: 0.25em;
+  padding-left: 1.5em;
+  width: 85%;}
+main {padding-top:0;}
+.floatleft {float: none;
+  display:none;}
+#hero {display:none;}
+footer {padding:0.5em;
+margin:0;}
+#mobile {display: inline;}
+#desktop {display: none;}
+}</style>
+
+<!--[if lt IE 9}>
+<script src="http://htm15shim.googlecode.com/svn/trunk/html5.js">
+</script>
+<![endif]-->
+</head>
+<body>
+  <div id="wrapper">
+  <h1>Hello World, My name is Alex</h1>
+  <nav>
+  </nav>
+<main>
+  <h2>About Me</h2>
+  
+  <p>I am a Chaffey college student in the CIS major. I like to play around with html, keep up in the know of hardware, build computers, and play games.</p>
+  <img src = "IMG_0180.JPG" alt = "Me" height= "300" width= "250" class="floatleft" >
+  <div class="clear">
+    I am a CISIWEB 74 Student
+    </div>
+    </main>
+    <footer>
+      Copyright &copy; 2020 Alex Hernandez<br>
+      </footer>
+</div>
+</body>
+</html>
